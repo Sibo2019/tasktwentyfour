@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- latest compiled and minified Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- link javascript file -->
+    <script type='text/javascript' src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"> </script>
+    <title>Bungani Technologies</title>
+    <!-- add logo to the tittle -->
+    <link rel="shortcut icon" href="images/favicons.ico" />
+    <!-- external styling -->
+    <link rel="stylesheet" href="mystyle.css">   
+</head>
+<!--==================================================BODY========================================================-->
+<body>
+    <div>
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-sm bg-light fixed-top shadow">
+            <ul class="myNavLinks navbar-nav nav-link ml-3">
+                <li class="nav-item px-1">
+                    <!--navigation bar class, left & right padding 1-->
+                    <li><img class="logo" src="logo1.png" alt="Image not available"></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <!--Use horizontal bars icon for the Home link-->
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contactus.html">Contact Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="saveditems.html">Saved for later</a></li>
+                </ul>
+        <!-- form for Search field-->
+        <div class="navbar-collapse justify-content-end">
+            <form class="form-inline mr-lg-4">
+                <input class="input-sm form-control-sm m-2 " type="search" placeholder="search...">
+                <button class="btn btn-sm btn-primary m-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+        </nav>
+    </div>
+<br>
+<br>
+<br>
+<!--==============================================================================================================-->   
+<div class="container" style="background-color: rgb(252, 252, 252)">
+    <br>
+    <br>
+    <br>
+    <br>
+        <div class="row">
+            <div class="col-sm-6 right"><img class="img-responsive" id="image5" 
+                src =images/itservices.jpg alt="Image Not Available" onclick="saveImage(this)"></div>
+                <div class="col-sm-6 left">
+                    <h2 style="color: rgb(34, 25, 117);">IT Services.</h2>
+                    <p id="paragraph3">We provide services related to the application of business and technical expertise 
+                    to enable organizations in the creation, management and optimization of or 
+                    access to information and business processes. We provide services in the following categories
+                    <img class="likeIcon" onclick="like(this)" src="images/like.jpg">
+                    <img class="saveIcon" onclick="saveText(this)" src="images/save.png"></p> 
+
+                    <ul>
+                        <li>business process services,</li>
+                        <li>application services </li>
+                        <li> and infrastructure services.</li>
+                    </ul>
+                </div>    
+      <!--==========================================================================================================-->     
+        <br>
+        <div class="row"> 
+            <div class="col-sm-6 Left">  
+            <h2 style="color: rgb(34, 25, 117);">Automation</h2>
+            <br><p id="paragraph4"> <em>Our Focus IoT:</em>  We provide platfom  where users get the data from the devices and 
+                equipment in their homes, offices, factories and fleet tracking & goods monitoring so that they can
+                 make the required commands that the devices need to execute. Automation ties all these components
+                  together and ensures that processes work smoothly without the involvement of a human being 
+                  <img class="likeIcon" onclick="like(this)" src="images/like.jpg">
+                  <img class="saveIcon" onclick="saveText(this)" src="images/save.png"></p>
+                <h6>Here are our focus Areas:</h6>
+                <ul>
+                    <li>Automation (Home and Office)</li>
+                    <li>Manufactoring</li>
+                    <li>Transportation</li>
+                    <li>Smart cities</li>
+                </ul>
+            </div>
+            <br>
+            <div class="col-sm-6 right"><img class="img-responsive" id="image6"
+                src =images/automation.jpg alt="Image Not Available" onclick="saveImage(this)"></div>  
+        </div>
+        <!--=========================================================================================================-->   
+        <div class="row">
+            <div class="col-sm-6 right"><img class="img-responsive" id="image7"
+                src =images/consulting.jpg alt="Image Not Available" onclick="saveImage(this)"></div>
+            <br>
+            <div class="col-sm-6 right">
+                <h2 style="color: rgb(34, 25, 117);">Consulting</h2>
+             <p id="paragraph5">Our Consulting Services helps in: Identifying Risks and Recommending Solutions to Address Them.
+                  Align Your Resilience Strategy w/ Risk Mitigation & Adaptability so You're Always Prepared.
+                 Mitigate Disruptions. Reduce Downtime. Improve Resiliency. Effectively Address Risk
+                 <img class="likeIcon" onclick="like(this)" src="images/like.jpg">
+                 <img class="saveIcon" onclick="saveText(this)" src="images/save.png">.</p>
+            </div>
+        </div>      
+    </div>
+    </div>
+    <br>
+    <br>
+     <!--============================================================================================================--> 
+    <div class="botom-nav">
+        <div class="row">
+            <div class="col-sm-3 left">
+                    <br>
+                <h6>COMPANY</h6>
+                Reg No: 2018/549502/07
+                <br>
+                <a href="#" class="fa fa-envelope"></a>info@bunganitechnologies.co.za
+        </div>
+            <div class="col-sm-3 center">
+                <br>
+                <h6>SERVICES</h6>
+                    IT services 
+                    <br>
+                    Automation
+                    <br>
+                    Consulting
+        </div>
+                    <div class="col-sm-3 right">
+                        <br>
+                        <h6>SUPPORT</h6>
+                        Resources
+                        <br>
+                        FAQ's
+                        <br>
+                         Contact Us               
+                    </div>
+                    <div class="col-sm-3 right">
+                        <br>
+                    <h6>CONNECT WITH US</h6>
+                        <a href="#" class="fa fa-facebook"></a>
+                         <a href="#" class="fa fa-twitter"></a>
+                         <a href="#" class="fa fa-instagram"></a>
+                         <a href="#" class="fa fa-linkedin"></a>
+                    </div>
+         <!--===========================================================================================================-->   
+                        <br>
+                    <div class="row">
+                        <div class="col-sm-6 lefttwo">2022 © Bungani Technologies (PTY) LTD</div>
+                         <div class="col-sm-6 righttwo">Privacy & Terms ></div>
+                     </div>
+                    </div>
+                </div>
+            </body>
+        </html> 
