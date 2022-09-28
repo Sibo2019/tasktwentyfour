@@ -4,7 +4,7 @@ Code Name/Summary:Capstone Project VI — JavaScript Fundamentals
 ================================================================================= */
 
 // function to saves a clicked text element.
-function saveText(element) {
+function storeText(element) {
 
     let parentId = $(element).parent().attr("id");
     let parent = document.getElementById(parentId);
