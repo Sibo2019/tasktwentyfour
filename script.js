@@ -3,7 +3,7 @@ Date: 04-July-2022
 Code Name/Summary:Capstone Project VI — JavaScript Fundamentals
 ================================================================================= */
 
-// function to savesa clicked text element.
+// function to saves a clicked text element.
 function saveText(element) {
 
     let parentId = $(element).parent().attr("id");
